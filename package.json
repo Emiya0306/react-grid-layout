@@ -1,8 +1,9 @@
 {
-  "name": "react-grid-layout",
-  "version": "1.4.4",
+  "name": "@kyligence/react-grid-layout",
+  "version": "1.4.5",
   "description": "A draggable and resizable grid layout with responsive breakpoints, for React.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "lint": "make lint",
     "test": "make test",
@@ -21,7 +22,7 @@
     "url": "git@github.com:STRML/react-grid-layout.git"
   },
   "keywords": [
-    "react",
+    "react",  
     "grid",
     "drag",
     "draggable",
@@ -37,6 +38,7 @@
   },
   "homepage": "https://github.com/STRML/react-grid-layout",
   "dependencies": {
+    "@types/react": "*",
     "clsx": "^2.0.0",
     "fast-equals": "^4.0.3",
     "prop-types": "^15.8.1",
@@ -96,7 +98,7 @@
     "react-dom": ">= 16.3.0"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "registry": "https://repo-ofs.kyligence.com/repository/npm-hosted/"
   },
   "jest": {
     "setupFilesAfterEnv": [
